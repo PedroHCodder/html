@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario em HTML 5</title>
+</head>
+<body>
+    <h1>Formulario em HTML 5</h1>
+    <h2>Cadastro de Novo Usuário</h2>
+    <form action="">
+   <label for="nome">Nome Completo:</label><br>
+    <input 
+    type="text" 
+    name="nome" 
+    id="nome"
+    placeholder="Digite seu nome"
+ >
+<br><br>
+<label for="email">Email:</label><br>
+<input 
+    type="email"
+    name="email"
+    id="email"
+    placeholder="Digite seu email"
+ >
+ <br><br>
+<label for="Senha">Senha:</label><br>
+<input 
+        type="password"
+        class="senha"
+        name="senha"
+        id="senha"
+        placeholder="Digite sua senha"
+    >
+    <br><br>
+    <label for="Data-nascimento">Data de Nascimento</label><br>
+    <input 
+    type="date" 
+    name="data-nascimento" 
+    id="data-nascimento"
+    >
+    <br><br>
+    <label for="genero">Gênero</label><br>
+    <input type="radio" name="genero" id="Masculino"value="masculino">
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" name="genero" id="Feminino" value="Feminino">
+    <label for="feminino">Feminino</label>
+    <br><br>
+    <label for="setor">Setor</label><br>
+    <select name="setor" id="setor">
+        <option value="vendas">Vendas</option>
+        <option value="marketing">Marketing</option>
+        <option value="ti">TI</option>
+    </select>
+    <br><br>
+    <label for="hobby">Hobby (Escolha uma ou mais opções):</label><br>
+    <input type="checkbox" name="hobby" id="leitura"value="leitura">
+    <label for="leitura">Leitura</label>
+    <input type="checkbox" name="hobby" id="musica" value="musica">
+    <label for="musica">Música</label>
+    <input type="checkbox" name="hobby" id="esportes" value="esportes">
+    <label for="esportes">Esportes</label>
+<br><br>
+    <button type="submit">Cadastrar</button>
+    <button type="reset">Limpar</button>
+    </form>
+</body>        
+</html>
